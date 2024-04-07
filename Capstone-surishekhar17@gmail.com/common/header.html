@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <title>Header</title>
+    
+</head>
+
+<body>
+
+    <!--Header First Section-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <img src="../images/Myntra-Logo.png" style="cursor: pointer; width: 120px; height: 60px;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex m-auto" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search for Products, brand and more"
+                        aria-label="Search" style="border: 2px solid deeppink; width: 400px;">
+                    <button class="sbutton my-2 my-sm-0" type="button" title="Search">Search</button>
+                </form>
+                <div>
+                    <a class="nav-link" href="../html-files/login.html" title="Login">
+                        <button class="login my-sm-0" type="button">Login</button>
+                    </a>
+                </div>
+                <div>
+                    <a class="nav-link" href="../html-files/cart.html">
+                        <i class="fa fa-cart-arrow-down" style="font-size:30px; color:deeppink;"></i>
+                    </a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Header Second Section-->
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" title="Home" href="../index.html" style="color: deeppink;">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" title="All Products" href="../html-files/allproduct.html" style="color: deeppink;">All Products</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false" style="color: deeppink;">
+                Men
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../html-files/men-all-product.html">All</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="../html-files/shirts.html">Shirts</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="../html-files/pants.html">Pants</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="../html-files/hoodies.html">Hoodies</a></li>
+            </ul>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false" style="color: deeppink;">
+                Women
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../html-files/women-all-product.html">All</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="../html-files/dresses.html">Dresses</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="../html-files/women-pants.html">Pants</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="../html-files/skirts.html">Skirts</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../html-files/kids.html" style="color: deeppink;">Kids</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" title="Contact Us" href="../html-files/contact.html" style="color: deeppink;">Contact Us</a>
+        </li>
+    </ul>
+</body>
+
+</html>
